@@ -1,4 +1,4 @@
-React-mini-clone-Trello
+**React-mini-clone-Trello**
 
 Little Project I did to learn React
 
