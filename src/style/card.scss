@@ -1,0 +1,28 @@
+.list-card {
+  background: #fff;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: .9rem;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 0px #cecece;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+
+  &:hover {
+    background: #EDEFF0;
+
+    .fa {
+      visibility: visible;
+    }
+  }
+
+  .fa {
+    visibility: hidden;
+    color: #d22222;
+    margin-left: auto;
+    padding: 2px;
+    border-radius: 2px;
+  }
+}

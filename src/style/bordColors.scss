@@ -1,0 +1,18 @@
+$blue-board: #0079BF;
+$orange-board: #BF6A00;
+$orange-light-board: #FB8C00;
+$red-board: #e53935;
+$cyan-board: #00ACC1;
+$purple-board: #5E35B1;
+$pink-board: #F06292;
+$green-board: #7CB342;
+
+:export {
+  green: $green-board;
+  blue: $blue-board;
+  orange: $orange-light-board;
+  red: $red-board;
+  cyan: $cyan-board;
+  pink: $pink-board;
+  orange: $orange-board;
+}

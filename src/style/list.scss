@@ -1,0 +1,55 @@
+.board-list {
+  background: #E2E4E6;
+  padding: 5px;
+  font-size: .8em;
+  box-shadow: 1px 1px 0px #d2d2d2;
+  border-radius: 3px;
+  margin-bottom: 20px;
+
+  .list-header {
+    margin-bottom: 5px;
+    font-weight: bold;
+
+    &-title {
+      padding-right: 1px;
+
+      &--title {
+        cursor: pointer;
+      }
+    }
+
+    &-delete {
+      padding-left: 1px;
+      text-align: center;
+      color: #d22222;
+      cursor: pointer;
+
+      i {
+        padding: 2px;
+        border-radius: 2px;
+      }
+
+      &:hover i {
+        background: rgba(0, 0, 0, .1)
+      }
+    }
+
+    .list-header-input input {
+      padding: 0;
+      margin: 0;
+      white-space: 0;
+      border-width: 0;
+      padding: 2px;
+      width: 100%;
+    }
+  }
+
+  a {
+    color: #000;
+    display: block;
+
+    &:hover {
+      color: #797979;
+    }
+  }
+}
